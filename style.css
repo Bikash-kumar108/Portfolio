@@ -1,0 +1,364 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: "Syne Mono", monospace;
+}
+@import url('https://fonts.googleapis.com/css2?family=Syne+Mono&display=swap');
+
+html,body{
+    width: 100%;
+    height: 100%;
+}
+.main{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    background-color: #dadada;
+}
+/* ...........................navbar start............................ */
+
+.nav{
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    left: 50%;
+    top: 1vw;
+}
+.nav ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 2.5vw;
+    padding: 0.6vw 1.5vw;
+    border: 2px solid transparent;
+    background-color: #654597;
+    border-radius: 50px;
+    position: fixed;
+}
+.nav ul li{
+    padding: 0.6vw;
+    border: 2px solid transparent;
+    border-radius: 50px;
+    cursor: pointer;
+}
+.nav ul li a{
+    color: #000;
+    font-size: 1rem;
+    font-weight: 500;
+    font-family: "Syne Mono", monospace;
+    font-weight: 400;
+    font-style: normal;
+    padding: 0.6vw;
+}
+
+.nav a:hover{
+    background-color:#574AE2;
+    color: #fff;
+    font-weight: 600;
+    border: 1px solid transparent;
+    border-radius: 50px;
+
+}
+
+/* ...........................navbar end ............................ */
+
+
+
+/* ...........................first page ............................ */
+
+#first-page {
+    width: 100%;
+    height: auto;
+    background-color: #dadada;
+}
+#first-page .intro {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  }
+  .intro h1{
+    margin-top: 15vw;
+  }
+.socialmedia {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 2vw;
+    margin: 6vw;
+  }
+  
+  #social1 {
+    background-color: #654597;
+    padding: 1vw;
+    border-radius: 3vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+  }
+  #social1 a{
+    font-size: 2.5vw;
+    font-weight: 500;
+    text-decoration: none;
+    color: #000;
+  }
+  #social1:hover {
+    background-color: #574AE2;
+    border: 1px solid transparent;
+  }
+  #social2 {
+    background-color: #654597;
+    padding: 1vw;
+    border-radius: 3vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  #social2 a{
+    font-size: 2.5vw;
+    font-weight: 500;
+    text-decoration: none;
+    color: #000;
+  }
+  #social2:hover {
+    background-color: #574AE2;
+    border: 1px solid transparent;
+  }
+  #social3 {
+    background-color: #654597;
+    padding: 1vw;
+    border-radius: 3vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  #social3 a{
+    font-size: 2.5vw;
+    font-weight: 500;
+    text-decoration: none;
+    color: #000;
+  }
+  
+  #social3:hover {
+    background-color: #574AE2;
+    border: 1px solid transparent;
+  }
+
+  i{
+    font-size: 4vw;
+    color: #fff;
+  }
+
+/* ........................... end  of page............................ */
+/* ........................... second page ............................ */
+
+#skill{
+  width: 100%;
+  min-height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #dadada;
+  
+  
+}
+#skill h6{
+  font-size: 5vw;
+  font-weight: 400;
+  text-transform: capitalize;
+  padding: 2vw;
+  margin: 1.5vw 0vw;
+}
+
+.skillicons{
+  width: 80vw;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center; 
+}
+.skillicons img{
+  margin: 2vw 4vw;
+  width: 10vw;
+  height: auto;
+  padding: 2vw;
+}
+.skillicons img:hover{
+  width: 15vw;
+
+}
+/* ...........................second end ............................ */
+
+
+/* ........................... third ............................ */
+
+#education{
+  width: 100%;
+  min-height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #dadada;
+}
+
+#education h4{
+  font-size: 5vw;
+  font-weight: 400;
+  margin-bottom: 1.5vw;
+
+}
+
+.econtanar{
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap:4vw;
+  padding: 3vw 4vw;
+  border: 1px solid transparent;
+  border-radius: 1vw;
+}
+.box1{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.icon1{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 3vw;
+}
+
+.edu1 h5{
+  white-space: nowrap;
+  text-transform: capitalize;
+  font-size: 3vw;
+  font-weight: 500;
+  margin-top: 1.5vw;
+
+}
+.edu1 h6{
+  text-transform: capitalize;
+  white-space: nowrap;
+  line-height: 1.8vw;
+  font-size: 1.5vw;
+  font-weight: 300;
+}
+#logo1{
+  margin-top: 2vw;
+}
+
+.box2{
+}
+.icon2{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 3vw;
+}
+.edu2 h5{
+  white-space: nowrap;
+  text-transform: capitalize;
+  font-size: 3vw;
+  font-weight: 500;
+  margin-top: 1.5vw;
+
+}
+#logo2{
+  margin-top: 2vw;
+}
+.logo{
+  width: 6vw;
+}
+/* ........................... end ............................ */
+
+/* ........................... forth ............................ */
+
+#contact{
+  width: 100%;
+  height: auto;
+  background-color:#dadada;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+#contact h4{
+  font-size: 5vw;
+  margin-top: 5vw ;
+}
+#contact p{
+  font-size: 2vw;
+  font-weight: 500;
+  margin:2vw 0px;
+}
+#contact p span{
+  color: rgb(87, 74, 226);
+}
+.form {
+  width: 60vw;
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  padding: 2vw 3vw;
+}
+#name{
+  margin:0.5vw;
+  padding: 1vw;
+  border: 2px solid transparent;
+  border-radius: 20px;
+  background-color: rgba(34, 42, 104, 0.139);
+}
+#email{
+  margin:0.5vw;
+  padding: 1vw;
+  border: 2px solid transparent;
+  border-radius: 20px;
+  background-color: rgba(34, 42, 104, 0.139);
+}
+#textarea{
+  margin:0.5vw;
+  padding: 1vw;
+  border: 2px solid transparent;
+  border-radius: 20px;
+  background-color: rgba(34, 42, 104, 0.139);
+}
+.btn{
+  width: 12vw;
+  margin-top: 1vw;
+  padding: 1vw;
+  border: 2px solid transparent;
+  border-radius: 2vw;
+  background-color: #654597;
+  font-weight: 500;
+  font-size: 2vw;
+  font-family: sans-serif; 
+}
+.btn:hover{
+  color: #fff;
+  background-color: #574AE2;
+}
+/* ........................... end ............................ */
+
+/* ........................... nav2 start ............................ */
+.nav2{
+  display: flex;
+  position: absolute;
+  display: none;
+}
+.ico #img1 {
+  width: 20px;
+
+
+}
+
+/* ...........................nav2 end ............................ */
